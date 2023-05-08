@@ -1,0 +1,83 @@
+/* Set background color and image */
+body {
+    background-color: #f8f6f7;
+    background-image: url('https://i.pinimg.com/564x/2d/34/6f/2d346facaa62d3fb52d54514cfd38516.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /* Style the main heading */
+  h1 {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 50px;
+    color: #f8f6f7;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  h1 span {
+    color: #ffb700;
+  }
+  
+  /* Style the image */
+  .image {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.5));
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+  }
+  
+  /* Style the poem */
+  .poem {
+    background-color: rgba(255, 255, 255, 0.8);
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 40px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+  }
+  
+  .text {
+    font-size: 28px;
+    line-height: 1.5;
+    text-align: center;
+    color: #464646;
+    font-family: 'Lora', serif;
+    font-style: italic;
+    letter-spacing: 0.5px;
+  }
+  
+  /* Style the span element */
+  .text span {
+    font-weight: bold;
+    color: #e9573f;
+  }
+  
+  /* Add some decorative elements */
+  hr {
+    border: none;
+    height: 2px;
+    background-color: #e9573f;
+    margin: 50px 0;
+  }
+  
+  .circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #e9573f;
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  a{
+   justify-content: right;
+   border: solid 5px black ;
+  }
